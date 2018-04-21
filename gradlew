@@ -43,13 +43,19 @@ case "`uname`" in
 esac
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1280e4616d9036d94e32db84b6c49f39d0f54e85
 # For Cygwin, ensure paths are in UNIX format before anything is touched.
 if $cygwin ; then
     [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
 fi
 
+<<<<<<< HEAD
 =======
 >>>>>>> 6695b70d449dccd104e69b6fc349392db6f106ec
+=======
+>>>>>>> 1280e4616d9036d94e32db84b6c49f39d0f54e85
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
 PRG="$0"
@@ -65,6 +71,7 @@ while [ -h "$PRG" ] ; do
 done
 SAVED="`pwd`"
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd "`dirname \"$PRG\"`/" >&-
 APP_HOME="`pwd -P`"
 cd "$SAVED" >&-
@@ -73,6 +80,11 @@ cd "`dirname \"$PRG\"`/" >/dev/null
 APP_HOME="`pwd -P`"
 cd "$SAVED" >/dev/null
 >>>>>>> 6695b70d449dccd104e69b6fc349392db6f106ec
+=======
+cd "`dirname \"$PRG\"`/" >&-
+APP_HOME="`pwd -P`"
+cd "$SAVED" >&-
+>>>>>>> 1280e4616d9036d94e32db84b6c49f39d0f54e85
 
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
@@ -124,9 +136,12 @@ if $cygwin ; then
     APP_HOME=`cygpath --path --mixed "$APP_HOME"`
     CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     JAVACMD=`cygpath --unix "$JAVACMD"`
 >>>>>>> 6695b70d449dccd104e69b6fc349392db6f106ec
+=======
+>>>>>>> 1280e4616d9036d94e32db84b6c49f39d0f54e85
 
     # We build the pattern for arguments to be converted via cygpath
     ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
